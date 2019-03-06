@@ -1,0 +1,24 @@
+{
+  "name": "8005",
+  "version": "1.0.0",
+  "description": "use `micro` to create a server playground.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "npm list micro && echo 'the latest version:' && npm view micro version",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/server-playground/8005.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/server-playground/8005/issues"
+  },
+  "homepage": "https://github.com/server-playground/8005#readme",
+  "dependencies": {
+    "micro": "^9.3.3"
+  }
+}
