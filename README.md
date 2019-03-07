@@ -1,5 +1,5 @@
 # 8005
-> use `micro` to create a server playground.
+> use `Micro` to create a server playground.
 
 https://zeit.co/blog/micro-8
 
