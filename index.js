@@ -1,13 +1,16 @@
 'use strict'
 
+const http = require('http')
 const micro = require('micro')
 
-const server = micro(async (req) => {
+const app = micro.serve(async (req) => {
   console.log('')
   console.log(req['url'])
   console.log(req['headers']['user-agent'])
   return 'hello world'
 })
+
+const server = new http.Server(app);
 
 server.listen(8005)
 
