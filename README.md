@@ -7,9 +7,9 @@ https://github.com/zeit/micro
 
 ## Usage
 
-```
-$ npm install
-$ npm run start
+```bash
+npm install
+npm run start
 ```
 
 * http://localhost:8005/
